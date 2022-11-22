@@ -1,0 +1,106 @@
+:root{
+  --color-bg1: rgba(116, 197, 255, 1);
+  --color-bg2: rgba(255, 185, 202, 1);
+  --color-bg3: rgba(255, 109, 141, 1);
+  --color-bg4: rgba(37, 128, 193, 1);
+  --color-bg5: rgba(255, 242, 214, 1);
+  --color-button: rgba(106, 25, 245, 1);
+  --color-text1: rgba(255, 255, 255, 1);
+  --color-text2: rgba(0, 0, 0, 1);
+}
+
+html{
+  font-size: 62.5%;
+  font-family:'Work Sans', monospace;
+  color: var(--color-text2);
+  text-align: center
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  letter-spacing: 0.5rem;
+  line-height: 4.1;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  line-height: 2.08;
+}
+
+#p01{
+ font-size: 2.86rem;
+ font-weight: 500;
+ line-height: 2.08;
+}
+
+.p02{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.4;  
+}
+
+blockquote{
+  font-size: 1.6rem;
+  font-weight: 500;  
+  line-height: 2.08;
+}
+
+#b1{
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 0.336;
+  background-color: var(--color-button);
+}
+
+.a{
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 0.336;
+  background-color: var(--color-button);
+  text-decoration: none;
+}
+
+#n01{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.08;
+}
+
+#p04{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.08;
+}
+
+#sec01{
+  background-color: var(--color-bg1);
+  border: 2px solid black;
+}
+
+#sec02{
+  background-color: var(--color-bg3);
+  border: 2px solid black;
+}
+
+#sec03{
+  background-color: var(--color-text1);
+  border: 2px solid black;
+}
+
+#sec04{
+  background-color: var(--color-bg4);
+  border: 2px solid black;
+}
+
+#sec05{
+  background-color: var(--color-text1);
+  border: 2px solid black;
+}
+
+footer{
+  background-color: var(--color-bg5);
+  border: 2px solid black;
+}
