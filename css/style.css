@@ -9,9 +9,9 @@
   --color-text2: rgba(0, 0, 0, 1);
 }
 
-html{
+body{
   font-size: 62.5%;
-  font-family:'Work Sans', monospace;
+  font-family:'Work Sans', sans-serif;
   color: var(--color-text2);
   text-align: center
 }
