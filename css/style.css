@@ -53,6 +53,10 @@ blockquote{
   line-height: 2.08;
 }
 
+li {
+list-style-type: none;
+}
+
 #b1{
   font-size: 1.8rem;
   font-weight: 600;
