@@ -6,12 +6,12 @@
   --color-bg5: rgba(255, 242, 214, 1);
   --color-button: rgba(106, 25, 245, 1);
   --color-text1: rgba(255, 255, 255, 1);
-  --color-text2: rgba(0, 0, 0, 1);
+  --color-text2: rgba(42, 42, 42, 1);
 
   font-size: 62.5%;
   font-family:'Work Sans', sans-serif;
   color: var(--color-text2);
-  text-align: center;
+  
 
 }
 
@@ -20,37 +20,60 @@
   margin: 0;
 }
 
+header {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
 
 h1 {
   font-size: 3.5rem;
   font-weight: normal;
-  letter-spacing: 0.5rem;
-  line-height: 4.1;
+  letter-spacing: 0.15rem;
+  line-height: 4.1rem;
+  text-align: center;
 }
 
 h2{
   font-size: 3rem;
   font-weight: 600;
-  letter-spacing: 0.08rem;
-  line-height: 2.08;
+  letter-spacing: 0.15rem;
+  line-height: 3.9rem;
+  text-align: center;
 }
 
 #p01{
  font-size: 2.86rem;
  font-weight: 500;
- line-height: 2.08;
+ line-height: 3.718rem;
+ text-align: left;
+}
+
+#p2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: left;
 }
 
 .p02{
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 2.4;  
+  line-height: 2.1rem;
+  text-align: center;  
+}
+
+.p03{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: left;  
 }
 
 blockquote{
   font-size: 1.6rem;
   font-weight: 500;  
-  line-height: 2.08;
+  line-height: 2.08rem;
+  text-align: center;
 }
 
 li {
@@ -62,6 +85,8 @@ list-style-type: none;
   font-weight: 600;
   line-height: 0.336;
   background-color: var(--color-button);
+  color: var(--color-text1);
+  text-align: center;
 }
 
 .a{
@@ -77,6 +102,7 @@ list-style-type: none;
   font-weight: 500;
   line-height: 2.08;
   text-decoration: none;
+  color: var(--color-text2);
 }
 
 #p04{
@@ -103,6 +129,7 @@ list-style-type: none;
 #sec04{
   background-color: var(--color-bg4);
   border: 2px solid black;
+  color: var(--color-text1);
 }
 
 #sec05{
