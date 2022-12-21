@@ -12,9 +12,12 @@
   font-family:'Work Sans', sans-serif;
   color: var(--color-text2);
   
-
+  box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 *{
   margin: 0;
@@ -25,12 +28,97 @@ header {
   font-weight: 500;
 }
 
-h1 {
+.volunteers
+{
+  margin: 7.4rem 0 4.3rem 0;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.volun{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 10rem auto;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+  margin: 5rem auto 10rem auto;
+}
+
+.classroom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 2.9rem auto 9.5rem auto;
+}
+
+.classpc{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.fest{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 5rem auto 10rem auto;
+}
+
+.img2 {
+  width: 37.5rem;
+  height: 37.5rem;
+  margin-top: 5rem;
+}
+
+.imgVol {
+  margin-bottom: 8.5rem;
+  width: 37.5rem;
+  height: 30.55rem;
+}
+
+.imgClass {
+  margin-top: 10rem;
+  width: 37.5rem;
+  height: 26.295rem;
+}
+
+.imgFest {
+  margin-top: 7.5rem;
+  width: 37.5rem;
+  height: 30.412rem;
+}
+
+.h1 {
   font-size: 3.5rem;
   font-weight: normal;
   letter-spacing: 0.15rem;
   line-height: 4.1rem;
   text-align: center;
+  margin:0;
 }
 
 h2{
@@ -41,11 +129,44 @@ h2{
   text-align: center;
 }
 
+.h21{
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  line-height: 3.9rem;
+  text-align: center;
+}
+
+.h22 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  line-height: 3.9rem;
+  text-align: center;
+}
+
+.h23 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  line-height: 3.9rem;
+  text-align: center;
+}
+
+.h24 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  line-height: 3.9rem;
+  text-align: center;
+}
+
 #p01{
- font-size: 2.86rem;
- font-weight: 500;
- line-height: 3.718rem;
- text-align: left;
+  font-size: 2.86rem;
+  font-weight: 500;
+  line-height: 3.718rem;
+  text-align: left;
+  margin: 3rem 0 2rem 0;
 }
 
 #p2 {
@@ -66,41 +187,179 @@ h2{
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.1rem;
-  text-align: left;  
+  text-align: left;
+}
+
+.p04 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: center;
+
+  width: 5.7rem;
+  margin: 0 auto;
+}
+
+.p05 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: center;
+
+  margin: 0.5rem auto 3rem auto;
+  width: 12.3rem;
+}
+
+.p06 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: left;
+
+  margin: 2rem auto 5rem auto;
+  /*width: 34.5rem;*/
+}
+
+.p07 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: left;
+  padding: 0 1.5rem;
+  margin-top: 2rem
+}
+
+.p08 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: left;
+  padding: 0 1.5rem;
+  margin: 2rem 0 5rem 0;
+}
+
+.p09 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: left;
+
+  margin: 3rem 0 5rem 0;
+  padding: 0 5.2rem 0 1.5rem;
+}
+
+.p10 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+
+  margin: 0 18.8rem 8.9rem 1.5rem;
+}
+
+
+.radio {
+  margin:0 auto;
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.inp1, .inp2, .inp3 {
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+}
+
+.inp2 {
+  margin: 0 1rem;
 }
 
 blockquote{
   font-size: 1.6rem;
-  font-weight: 500;  
+  font-weight: 500;
   line-height: 2.08rem;
   text-align: center;
+
+  padding: 0 3.4rem;
+  margin: 5rem auto 3rem auto;
 }
 
 li {
 list-style-type: none;
 }
 
-#b1{
+.b1{
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 0.336;
+  line-height: 2.1rem;
   background-color: var(--color-button);
   color: var(--color-text1);
   text-align: center;
+  border-radius: 5px;
+  border: 0;
+
+  padding: 1.5rem 6.7rem;
+  margin: 0 auto;
+  width: 34.5rem;
+}
+
+.b2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  background-color: var(--color-button);
+  color: var(--color-text1);
+  text-align: center;
+  border-radius: 5px;
+  border: 0;
+
+  margin: 0 auto;
+  padding: 15px 110px 14px 108px;
+  width: 34.5rem;
+  height: 5rem;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  width: 23.2rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.ul1, .ul12 {
+  text-align: left;
+}
+
+.nav1 li {
+  margin-bottom: 3.5rem;
+  text-transform: uppercase;
 }
 
 .a{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  line-height: 0.336;
+  line-height: 1.9rem;
   background-color: var(--color-button);
+  color: var(--color-text1);
+  text-align: center;
+  border-radius: 5px;
+  border: 0;
   text-decoration: none;
+
+  padding: 16px 60px 16px 60px;
+  margin: 0 auto;
+  min-width: 34.5rem;
 }
 
 .a02{
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 2.08;
+  line-height: 2.08rem;
   text-decoration: none;
   color: var(--color-text2);
 }
@@ -108,36 +367,792 @@ list-style-type: none;
 #p04{
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 2.08;
+  line-height: 2.08rem;
+  text-align: center;
+
+  margin: 1.5rem auto 1rem auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #sec01{
   background-color: var(--color-bg1);
-  border: 2px solid black;
 }
 
 #sec02{
   background-color: var(--color-bg3);
-  border: 2px solid black;
+  
 }
 
 #sec03{
   background-color: var(--color-text1);
-  border: 2px solid black;
 }
 
 #sec04{
   background-color: var(--color-bg4);
-  border: 2px solid black;
   color: var(--color-text1);
 }
 
 #sec05{
   background-color: var(--color-text1);
-  border: 2px solid black;
 }
 
 footer{
   background-color: var(--color-bg5);
-  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+@media (min-width:768px){
+  .h1{
+    font-size: 3.84rem;
+    font-weight: 500;
+    line-height: 4.36rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+
+  .volunteers{
+    padding-left: 9.6rem;
+    padding-right: 3.56rem;
+    margin: 5.96rem 0 5.96rem 0;
+    justify-content: start;
+  }
+
+  .imgVol {
+    min-width: 263.9px;
+    min-height: 214.97px;
+
+    margin-right: 5.42rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .volun{
+    flex-direction: row;
+  }
+
+  #p01{
+    font-size: 1.28rem;
+    line-height: 130%;
+  }
+
+  #p2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    text-align: left;
+  }
+
+  .testimonials {
+    margin: 7.16rem 0 4rem 0;
+    padding: 0 9.6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h21{
+    font-size: 2.08rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 2.7rem;
+    text-align: center;
+  }
+
+  blockquote{
+    font-size: 0.96rem;
+    font-weight: 500;
+    line-height: 1.44rem;
+    text-align: center;
+  
+    width: 34.76rem;
+    padding: 0;
+    margin: 3.2rem auto 2.4rem auto;
+
+  }
+
+  .p04 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    text-align: center;
+  
+    width: 3.24rem;
+  }
+
+  .p05 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    text-align: center;
+    opacity: 0.7;
+
+    margin: 0;
+    width: 8rem;
+  }
+
+  .leadpc {
+    display: flex;
+    justify-content: space-between;
+    width: 67.2rem;
+  }
+
+  .lead {
+    width: 23.56rem;
+    padding: 0;
+    justify-content: start;
+    margin-top: 14.36rem;
+  }
+
+  .b1{
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 0.84rem;
+    background-color: var(--color-button);
+    color: var(--color-text1);
+    text-align: left;
+    border-radius: 5px;
+
+    border: 0;
+    margin: 0;
+    padding: 0.76rem 1.44rem;
+    max-width: 11.36rem;
+  }
+
+  .h22 {
+    text-align: left;
+    font-size: 2.08rem;
+    line-height: 2.7rem;
+  }
+
+  .p06 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+  
+    margin: 1.6rem auto 1.76rem auto;
+  }
+
+  .img2 {
+    width: 37.16rem;
+    height: 40.68rem;
+  }
+
+  .classpc {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 63.12rem;
+    margin-left: 9.8rem;
+  }
+
+  .classroom {
+    display: flex;
+    width: 21.92rem;
+    margin: 8.2rem 0 12.2rem 0;
+  }
+
+  .h23 {
+    text-align: left;
+    font-size: 2.08rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 2.7rem;
+  }
+
+  .p07 {
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    text-align: left;
+    margin-top: 1.6rem;
+    width: 21.16rem;
+  }
+
+  .imgClass {
+    min-width: 37.04rem;
+    min-height: 26.49rem;
+    margin-top: 5.84rem;
+  }
+}
+
+@media (min-width:1024px){
+  .h1{
+    font-size: 5.12rem;
+    font-weight: 500;
+    line-height: 5.8rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+
+  .volunteers{
+    padding-left: 12.8rem;
+    padding-right: 4.75rem;
+    margin: 7.95rem 0 7.95rem 0;
+    justify-content: start;
+  }
+
+  .imgVol {
+    width: 35.185rem;
+    height: 28.66rem;
+  }
+
+  .volun{
+    flex-direction: row;
+  }
+
+  .imgVol {
+    margin-right: 8.83rem;
+    margin-bottom: 2.4rem;
+  }
+
+  #p01{
+    font-size: 1.7rem;
+    line-height: 130%;
+  }
+
+  #p2 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: left;
+  }
+
+  .testimonials {
+    margin: 9.54rem 0 5.3rem 0;
+    padding: 0 12.8rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h21{
+    font-size: 2.77rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 3.6rem;
+    text-align: center;
+  }
+
+  blockquote{
+    font-size: 1.28rem;
+    font-weight: 500;
+    line-height: 1.92rem;
+    text-align: center;
+  
+    width: 46.35rem;
+    padding: 0;
+    margin: 4.27rem auto 3.2rem auto;
+
+  }
+
+  .p04 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+  
+    width: 4.32rem;
+  }
+
+  .p05 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+    opacity: 0.7;
+
+    margin: 0;
+    width: 10.67rem;
+  }
+
+  .leadpc {
+    display: flex;
+    justify-content: space-between;
+    width: 89.6rem;
+  }
+
+  .lead {
+    width: 31.41rem;
+    padding: 0;
+    justify-content: start;
+    margin-top: 19.147rem;
+  }
+
+  .b1{
+    font-size: 0.96rem;
+    font-weight: 600;
+    line-height: 1.12rem;
+    background-color: var(--color-button);
+    color: var(--color-text1);
+    text-align: left;
+    border-radius: 5px;
+
+    border: 0;
+    margin: 0;
+    padding: 1rem 1.92rem;
+    max-width: 15.147rem;
+  }
+
+  .h22 {
+    text-align: left;
+    font-size: 2.77rem;
+    line-height: 3.6rem;
+  }
+
+  .p06 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+  
+    margin: 2.1rem auto 2.347rem auto;
+  }
+
+  .img2 {
+    width: 49.547rem;
+    height: 54.23rem;
+  }
+
+  .classpc {
+    display: flex;
+    justify-content: space-between;
+    width: 84.16rem;
+    margin-left: 13rem;
+  }
+
+  .classroom {
+    display: flex;
+    width: 29.227rem;
+    margin: 10.93rem 0 16.27rem 0;
+  }
+
+  .h23 {
+    text-align: left;
+    font-size: 2.77rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 3.6rem;
+  }
+
+  .p07 {
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: left;
+    margin-top: 2.13rem;
+    width: 28.21rem;
+  }
+
+  .imgClass {
+    min-width: 49.39rem;
+    min-height: 35.32rem;
+    margin-top: 7.787rem;
+  }
+}
+
+@media (min-width:1440px){
+  .h1{
+    font-size: 7.2rem;
+    font-weight: 500;
+    line-height: 8.175rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+
+  .volunteers{
+    padding-left: 18rem;
+    padding-right: 6.675rem;
+    margin: 11.175rem 0 11.175rem 0;
+    justify-content: start;
+  }
+
+  .imgVol {
+    width: 49.479rem;
+    height: 40.3rem;
+  }
+
+  .volun{
+    flex-direction: row;
+  }
+
+  .imgVol {
+    margin-right: 12.42rem;
+    margin-bottom: 3.375rem;
+  }
+
+  #p01{
+    font-size: 2.4rem;
+    line-height: 130%;
+  }
+
+  #p2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: left;
+  }
+
+  .testimonials {
+    margin: 13.425rem 0 7.5rem 0;
+    padding: 0 18rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h21{
+    font-size: 3.9rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 5.07rem;
+    text-align: center;
+  }
+
+  blockquote{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    text-align: center;
+  
+    width: 65.175rem;
+    padding: 0;
+    margin: 6rem auto 4.5rem auto;
+
+  }
+
+  .p04 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: center;
+  
+    width: 6.075rem;
+  }
+
+  .p05 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: center;
+    opacity: 0.7;
+
+    margin: 0;
+    width: 15rem;
+  }
+
+  .leadpc {
+    display: flex;
+    justify-content: space-between;
+    width: 126rem;
+  }
+
+  .lead {
+    width: 44.175rem;
+    padding: 0;
+    justify-content: start;
+    margin-top: 26.925rem;
+  }
+
+  .b1{
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.575rem;
+    background-color: var(--color-button);
+    color: var(--color-text1);
+    text-align: left;
+    border-radius: 5px;
+
+    border: 0;
+    margin: 0;
+    padding: 1.425rem 2.7rem;
+    max-width: 21.3rem;
+  }
+
+  .h22 {
+    text-align: left;
+    font-size: 3.9rem;
+    line-height: 5.07rem;
+  }
+
+  .p06 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+  
+    margin: 3rem auto 3.3rem auto;
+  }
+
+  .img2 {
+    width: 69.675rem;
+    height: 76.275rem;
+  }
+
+  .classpc {
+    display: flex;
+    justify-content: space-between;
+    width: 118.35rem;
+    margin-left: 18.375rem;
+  }
+
+  .classroom {
+    display: flex;
+    width: 41.1rem;
+    margin: 15.375rem 0 22.875rem 0;
+  }
+
+  .h23 {
+    text-align: left;
+    font-size: 3.9rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 5.07rem;
+  }
+
+  .p07 {
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: left;
+    margin-top: 3rem;
+    width: 39.675rem;
+  }
+
+  .imgClass {
+    min-width: 69.45rem;
+    min-height: 49.66rem;
+    margin-top: 10.95rem;
+  }
+}
+
+@media (min-width:1920px){
+  .h1{
+    font-size: 9.6rem;
+    font-weight: 500;
+    line-height: 10.9rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+
+  .volunteers{
+    padding-left: 24rem;
+    padding-right: 8.9rem;
+    margin: 14.9rem 0 14.9rem 0;
+    justify-content: start;
+  }
+
+  .imgVol {
+    width: 659.72px;
+    height: 537.42px;
+  }
+
+  .volun{
+    flex-direction: row;
+  }
+
+  .imgVol {
+    margin-right: 16.56rem;
+    margin-bottom: 4.5rem;
+  }
+
+  #p01{
+    font-size: 3.2rem;
+    line-height: 130%;
+  }
+
+  #p2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: left;
+  }
+
+  .testimonials {
+    margin: 17.9rem 0 10rem 0;
+    padding: 0 24rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h21{
+    font-size: 5.2rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 6.76rem;
+    text-align: center;
+  }
+
+  blockquote{
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    text-align: center;
+  
+    width: 869px;
+    padding: 0;
+    margin: 8rem auto 6rem auto;
+
+  }
+
+  .p04 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+  
+    width: 8.1rem;
+  }
+
+  .p05 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+    opacity: 0.7;
+
+    margin: 0;
+    width: 20rem;
+  }
+
+  .leadpc {
+    display: flex;
+    justify-content: space-between;
+    width: 1680px;
+  }
+
+  .lead {
+    width: 58.9rem;
+    padding: 0;
+    justify-content: start;
+    margin-top: 35.9rem;
+  }
+
+  .b1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+    background-color: var(--color-button);
+    color: var(--color-text1);
+    text-align: left;
+    border-radius: 5px;
+
+    border: 0;
+    margin: 0;
+    padding: 1.9rem 3.6rem;
+    max-width: 28.4rem;
+  }
+
+  .h22 {
+    text-align: left;
+    font-size: 5.2rem;
+    line-height: 6.76rem;
+  }
+
+  .p06 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  
+    margin: 4rem auto 4.4rem auto;
+  }
+
+  .img2 {
+    width: 929px;
+    height: 1017px;
+  }
+
+  .classpc {
+    display: flex;
+    justify-content: space-between;
+    width: 157.8rem;
+    margin-left: 24.5rem;
+  }
+
+  .classroom {
+    display: flex;
+    width: 54.8rem;
+    margin: 20.5rem 0 30.5rem 0;
+  }
+
+  .h23 {
+    text-align: left;
+    font-size: 5.2rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 6.76rem;
+  }
+
+  .p07 {
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: left;
+    margin-top: 4rem;
+    width: 52.9rem;
+  }
+
+  .imgClass {
+    min-width: 926.05px;
+    min-height: 662.23px;
+    margin-top: 14.6rem;
+  }
+  
+  .festpc {
+    display: flex;
+    flex-direction: row;
+    width: 164.2rem;
+    justify-content: space-between;
+  }
+
+  .fest {
+    width: 58.9rem;
+    justify-content: start;
+    margin: 0;
+    margin-top: 32.2rem;
+    margin-bottom: 32rem;
+  }
+
+  .h24 {
+    text-align: left;
+    font-size: 5.2rem;
+    font-weight: 600;
+    line-height: 6.76rem;
+  }
+  
+  .p08 {
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: left;
+    margin: 4rem 0 6rem 0;
+  }
+
+  .b2 {
+    text-align: left;
+    margin: 0;
+    width: 21.5rem;
+    height: 5.9rem;
+    padding: 1.9rem 4.4rem;
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+  }
+
+  .imgFest {
+    width: 88.38rem;
+    height: 71.674rem;
+    margin-top: 13.6rem;
+  }
 }
