@@ -28,6 +28,31 @@ header {
   font-weight: 500;
 }
 
+.headerlogo {
+  width: 11.35rem;
+  height: 3.5rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  height: 6.5rem;
+  padding: 1.5rem;
+}
+
+.navhead {
+  display: none;
+}
+
+.menubutton {
+  border: 0;
+  background-color: white;
+  padding: 0;
+  width: 3.5rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+}
+
 .volunteers
 {
   margin: 7.4rem 0 4.3rem 0;
@@ -253,7 +278,7 @@ h2{
   font-weight: 500;
   line-height: 2.1rem;
 
-  margin: 0 18.8rem 8.9rem 1.5rem;
+  margin: 3rem 18.8rem 8.9rem 1.5rem;
 }
 
 
@@ -321,6 +346,12 @@ list-style-type: none;
 ul, li {
   margin: 0;
   padding: 0;
+}
+
+.ul2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.6rem 3rem 1.6rem;
 }
 
 .nav1 {
@@ -408,7 +439,10 @@ footer{
   flex-direction: column;
 }
 
-
+.imgfooter {
+  width: 34.5rem;
+  height: 17.2rem;
+}
 
 @media (min-width:768px){
   .h1{
@@ -580,6 +614,55 @@ footer{
     min-width: 37.04rem;
     min-height: 26.49rem;
     margin-top: 5.84rem;
+  }
+
+  .festpc {
+    display: flex;
+    flex-direction: row;
+    width: 65.68rem;
+    justify-content: space-between;
+  }
+
+  .fest {
+    width: 23.56rem;
+    justify-content: start;
+    margin: 0;
+    margin-top: 12.88rem;
+    margin-bottom: 12.8rem;
+  }
+
+  .h24 {
+    text-align: left;
+    font-size: 3.08rem;
+    font-weight: 600;
+    line-height: 2.704rem;
+  }
+  
+  .p08 {
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    text-align: left;
+    margin: 1.6rem 0 2.4rem 0;
+  }
+
+  .b2 {
+    text-align: left;
+    margin: 0;
+    width: 8.6rem;
+    height: 2.36rem;
+    padding: 0.76rem 1.76rem;
+
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 0.84rem;
+  }
+
+  .imgFest {
+    width: 35.352rem;
+    height: 28.67rem;
+    margin-top: 5.44rem;
   }
 }
 
@@ -756,6 +839,55 @@ footer{
     min-height: 35.32rem;
     margin-top: 7.787rem;
   }
+
+  .festpc {
+    display: flex;
+    flex-direction: row;
+    width: 87.57rem;
+    justify-content: space-between;
+  }
+
+  .fest {
+    width: 31.4rem;
+    justify-content: start;
+    margin: 0;
+    margin-top: 17.17rem;
+    margin-bottom: 17rem;
+  }
+
+  .h24 {
+    text-align: left;
+    font-size: 2.77rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+  }
+  
+  .p08 {
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: left;
+    margin: 2.1rem 0 3.2rem 0;
+  }
+
+  .b2 {
+    text-align: left;
+    margin: 0;
+    width: 11.47rem;
+    height: 3.147rem;
+    padding: 1rem 2.347rem;
+
+    font-size: 0.96rem;
+    font-weight: 600;
+    line-height: 1.12rem;
+  }
+
+  .imgFest {
+    width: 47.136rem;
+    height: 38.2rem;
+    margin-top: 7.25rem;
+  }
 }
 
 @media (min-width:1440px){
@@ -930,6 +1062,55 @@ footer{
     min-width: 69.45rem;
     min-height: 49.66rem;
     margin-top: 10.95rem;
+  }
+
+  .festpc {
+    display: flex;
+    flex-direction: row;
+    width: 123.15rem;
+    justify-content: space-between;
+  }
+
+  .fest {
+    width: 44.175rem;
+    justify-content: start;
+    margin: 0;
+    margin-top: 24.15rem;
+    margin-bottom: 24rem;
+  }
+
+  .h24 {
+    text-align: left;
+    font-size: 3.9rem;
+    font-weight: 600;
+    line-height: 5.07rem;
+  }
+  
+  .p08 {
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: left;
+    margin: 3rem 0 4.5rem 0;
+  }
+
+  .b2 {
+    text-align: left;
+    margin: 0;
+    width: 16.125rem;
+    height: 4.425rem;
+    padding: 1.425rem 3.3rem;
+
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.575rem;
+  }
+
+  .imgFest {
+    width: 66.285rem;
+    height: 53.75rem;
+    margin-top: 10.2rem;
   }
 }
 
