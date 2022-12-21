@@ -1115,6 +1115,43 @@ footer{
 }
 
 @media (min-width:1920px){
+  header {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  .headerlogo {
+    width: 26rem;
+    height: 13rem;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: start;
+    height: 13.5rem;
+    padding: 0.5rem 24rem 0 22.5rem;
+  }
+  
+  .navhead{
+    display: flex;
+  }
+
+  .ulhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 21.5rem;
+    padding-top: 5.593rem;
+  }
+
+  .lihead {
+    padding-right: 6rem;
+  }
+  
+  .menubutton {
+    display: none;
+  }
+
   .h1{
     font-size: 9.6rem;
     font-weight: 500;
