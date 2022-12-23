@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteers</title>
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="head">
+				<a href="index.html"><img class="headerlogo" src="img/headerlogo.svg" alt="Main"></a>
+				<a href="index.html"><img class="headerlogopc" src="img/headerlogopc.svg" alt="Main"></a>
+		 <nav class="navhead">
+				<ul class="ulhead">
+				<li class="lihead"><a class="ahead" href="#">Puzzles</a></li>
+				<li class="lihead"><a class="ahead" href="#">Get involved</a></li>
+				<li class="lihead"><a class="ahead" href="#">Events</a></li>
+				<li class="lihead"><a class="ahead" href="#">About</a></li>
+				<li class="lihead"><a class="ahead" href="#">Store</a></li>
+				</ul>
+		 </nav>
+		 <button class="donatebutton">DONATE</button>
+		 <button class="menubutton"><img src="img/menu.svg" alt="Menu"></button>
+		</div>
+	</header>
+	<main>
+		<section class="secform">
+			<div class="wrapper">
+				<h2 >User data</h2>
+				<form class="form1" method="POST" name="contact">
+						<input type="hidden" name="form-name" value="contact">
+						<label>Name:<input type="text" placeholder="Your name" name="Name" required=""></label>
+						<label>Surname:<input type="text" placeholder="Your surname" name="Surname"></label>
+						<label>Date or birth:<input type="date" name="Birthday" required=""></label>
+						<p>Gender:</p>
+						<div class="gender">
+								<label class="man">Man:<input type="radio" value="Man" name="Gender"></label>
+								<label>Woman:<input type="radio" value="Woman" name="Gender"></label>
+						</div>
+						<label>Password:<input minlength="8" type="password" placeholder="Password" name="Password" required=""></label>
+						<h2>Contact information</h2>
+						<label>Email:<input type="email" placeholder="email@address.com" name="Email" required=""></label>
+						<label>Phone number:<input type="tel" placeholder="+7 (9XX) XXX-XXXX" name="Number" required=""></label>
+						<label>Сonvenient interval for communication:<input type="text" placeholder="Morning, day, evening, night" name="Time"></label>
+						<button class="formbutton"type="submit">Send</button>
+						<button class="formbutton" type="reset">Remove form</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="foot">
+				<div class="imgdiv"><img class="imgfooter"src="img/logofoot.png" alt="Mathopolis" width="262" height="262"></div>
+				<p class="p09">We're a fiscally-sponsored project of a 501(c)3, Social and Environmental Entrepreneurs.</p>
+				<p class="p101">© 2007–2022 Mathopolis</p>
+		</div>
+		<nav class="nav1">
+				<ul class="ul1">
+				<li class="li1"><a class="a02" href="#">Students</a></li>
+				<li class="li1"><a class="a02" href="#">Parents</a></li>
+				<li class="li1"><a class="a02" href="#">Teachers</a></li>
+				<li class="li1"><a class="a02" href="#">Volunteers</a></li>
+				<li class="li1"><a class="a02" href="#">Events</a></li>
+				</ul>
+				<ul class="ul12">
+				<li class="li2"><a class="a02" href="#">Puzzles</a></li>
+				<li class="li2"><a class="a02" href="#">About</a></li>
+				<li class="li2"><a class="a02" href="#">News</a></li>
+				<li class="li2"><a class="a02" href="#">Store</a></li>
+				<li class="li2"><a class="a02" href="#">Donate</a></li>
+				</ul>
+		</nav>
+		<div class="links">
+				<p id="p04">Follow us:</p>  
+				<ul class="ul2">
+						<li><a href="/"><img class="imglinks" src="img/twitterlink.svg" alt="twitter"></a></li>
+						<li><a href="/"><img class="imglinks" src="img/linkedinlink.svg" alt="linkedin"></a></li>
+						<li><a href="/"><img class="imglinks" src="img/instalink.svg" alt="Instagram"></a></li>
+						<li><a href="/"><img class="imglinks" src="img/facebooklink.svg" alt="Facebook"></a></li>
+						<li><a href="/"><img class="imglinks" src="img/ytlink.svg" alt="Youtube"></a></li>
+				</ul>
+				<button class="a">Support our cause</button>
+		</div>
+		<p class="p10">© 2007–2022 Mathopolis</p>
+</footer>
+</body>
+</html>
