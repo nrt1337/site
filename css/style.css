@@ -566,6 +566,10 @@ button:active{
   transform: scale(0.9);
 }
 
+button:focus{
+  box-shadow: -12px 12px 32px rgb(0, 0, 0, 1);
+  }
+
 ::selection{
   background-color: rgba(137, 43, 226, 0.445);
   color: aliceblue;
