@@ -475,8 +475,16 @@ ul, li {
   justify-content: space-between;
 }
 
+.ulflex {
+  display: flex;
+}
+
 .ul1, .ul12 {
   text-align: left;
+}
+
+.ul12 {
+  padding-left: 5.4rem;
 }
 
 .nav1 li {
